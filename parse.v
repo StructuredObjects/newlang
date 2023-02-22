@@ -106,14 +106,14 @@ pub fn fnc_arg_cgen(args map[string]string) string
 	return new
 }
 
-pub fn cgen_newtypes(typ string) string
+pub fn cgen_newtypes(typ []string) string
 {
-	match typ {
+	match typ[0] {
 		"array" {
-			return "char**"
+			return "char **"
 		}
 		"string" {
-			return "char*"
+			return "char *"
 		} else { return typ }
 	}
 	return typ
