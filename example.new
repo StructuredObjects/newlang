@@ -1,0 +1,11 @@
+C_BLOCK{
+#include <stdio.h>
+#include <stdlib.h>
+}
+
+fnc main(argc: int, argv: array) {
+    C.char *test[1024];
+
+    C.scanf("%s", test);
+    C.printf("%s", test);
+} int;
