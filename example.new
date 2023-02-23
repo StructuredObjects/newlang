@@ -1,11 +1,24 @@
 C_BLOCK{
 #include <stdio.h>
 #include <stdlib.h>
+void test();
 }
 
 fnc main(argc: int, argv: array) {
+    test();
     C.char *test[1024];
+    C.strcpy(test, "test");
+
+    C.if(strcmp("test", test) == 0) {
+        C.printf("Here");
+    C.}
 
     C.scanf("%s", test);
-    C.printf("%s", test);
+    C.for(int i = 0; i < strlen(test); i++) {
+        C.printf("%s", &test[i]);
+    C.}
 } int;
+
+fnc test() {
+    C.printf("Testing function");
+} void;
