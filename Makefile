@@ -13,8 +13,8 @@ dependency:
 	./v symlink
 
 build:
-	/bin/v/v parse.v -o new -prod
-	cp new /bin/
+	/bin/v/v parse.v -o new
+	mv new /bin/
 
 clean:
 	rm -rf parse
