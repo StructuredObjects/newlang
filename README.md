@@ -2,6 +2,10 @@
     <h1>newlang</h1>
 </div>
 
+# About
+<p>This project is still under development and unable to provide much information.</p>
+<p>Status: Currently working with C</p>
+
 # How to install
 Debian/Ubuntu (Created On Ubuntu 20.04 LTS)
 ```
