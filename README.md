@@ -6,6 +6,7 @@
 <p>This project is still under development and unable to provide much information.</p>
 <p>Status: Currently working with c interopability</p>
 For help with the lang or contributions to it. Join the Discord Server
+
 [Here](https://discord.gg/8pJ4YgHDTj)
 
 # How to install
